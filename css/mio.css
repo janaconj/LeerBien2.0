@@ -103,8 +103,32 @@ a{
     right: 0;
 }
 
+.pelota.c{
+    background: hotpink;
+    right: calc(87.5% - 8.75vw);
+}
+
+.pelota.f{
+    background: firebrick;
+    right: calc(62.5% - 6.25vw);
+}
+
+.pelota.h{
+    background: DodgerBlue;
+    right: calc(37.5% - 3.75vw);
+}
+
+.pelota.n{
+    background: teal;
+    right: calc(12.5% - 1.25vw);
+}
+
 .peloto.a{
     background: red;
+}
+
+.peloto.c{
+    background: hotpink;
 }
 
 .peloto.e{
@@ -116,7 +140,11 @@ a{
 }
 
 .peloto.o{
-    background: orange;
+    background: darkorange;
+}
+
+.peloto.n{
+    background: teal;
 }
 
 .peloto.u{
@@ -285,4 +313,28 @@ a{
 
 .vacio.p55{
     right: calc(50% - 29vw);
+}
+
+.vacio.p61{
+    left: calc(50% - 35.5vw);
+}
+
+.vacio.p62{
+    left: calc(50% - 23.5vw);
+}
+
+.vacio.p63{
+    left: calc(50% - 11.5vw);
+}
+
+.vacio.p64{
+    right: calc(50% - 11.5vw);
+}
+
+.vacio.p65{
+    right: calc(50% - 23.5vw);
+}
+
+.vacio.p66{
+    right: calc(50% - 35.5vw);
 }
