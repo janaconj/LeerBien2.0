@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Leer Bien</title>
+        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link href="css/mio.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="tablero">
+            <div class="inicio"><a href="index.html"><i class="fa fa-home"></i></a></div>
+            <div class="instruccion">Completa la palabra:</div>
+            <div class="imagen">
+                <img class="figurita" id="camion" src="images/camion.jpg">
+            </div>
+            <div class="cuadrito">
+                <div class="vacio p61" id="dropcc"></div>
+                <div class="vacio p62">A</div>
+                <div class="vacio p63" id="dropcm"></div>
+                <div class="vacio p64">I</div>
+                <div class="vacio p65">Ó</div>
+                <div class="vacio p66" id="dropcn"></div>
+            </div>
+        </div>
+        <div class="raya">
+            <div class="cancha">
+                <div class="pelota a" id="dragcb">B</div>
+                <div class="pelota c" id="dragcc1">C</div>
+                <div class="pelota c" id="dragcc">C</div>
+                <div class="pelota e" id="dragcd">D</div>
+                
+                <div class="pelota f" id="dragcf">F</div>
+                <div class="pelota i" id="dragcg">G</div>
+                <div class="pelota h" id="dragch">H</div>
+                
+                <div class="pelota o" id="dragcm1">M</div>
+                <div class="pelota o" id="dragcm">M</div>
+                <div class="pelota n" id="dragcn1">N</div>
+                <div class="pelota n" id="dragcn">N</div>
+                <div class="pelota u" id="dragcl">L</div>
+            </div>
+        </div>
+    </body>
+    
+    <footer>
+        <audio id="audiocom" src="sonidos/camion.mp3"></audio>
+        <audio id="audiob" src="sonidos/b.mp3"></audio>
+        <audio id="audioc" src="sonidos/c.mp3"></audio>
+        <audio id="audiod" src="sonidos/d.mp3"></audio>
+        <audio id="audiof" src="sonidos/f.mp3"></audio>
+        <audio id="audiog" src="sonidos/g.mp3"></audio>
+        <audio id="audioh" src="sonidos/h.mp3"></audio>
+        <audio id="audiom" src="sonidos/m.mp3"></audio>
+        <audio id="audion" src="sonidos/n.mp3"></audio>
+        <audio id="audiol" src="sonidos/l.mp3"></audio>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.2/jquery.ui.touch-punch.min.js"></script>
+        <script src="js/drag.js"></script>
+    </footer>
+    
+</html>
