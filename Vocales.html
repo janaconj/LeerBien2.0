@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Leer Bien</title>
+        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+        
+        <link href="css/mio.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="tablero">
+            <div class="instruccion">Completa la palabra:</div>
+            <div class="imagen">
+                <img class="figurita" id="abeja" src="images/abeja.jpg">
+            </div>
+            <div class="cuadrito">
+                <div class="vacio p51" id="dropva"></div>
+                <div class="vacio p52">B</div>
+                <div class="vacio p53" id="dropve"></div>
+                <div class="vacio p54">J</div>
+                <div class="vacio p55" id="dropva1"></div>
+            </div>
+        </div>
+        <div class="raya">
+            <div class="cancha">
+                <div class="pelota a" id="dragva2">A</div>
+                <div class="pelota a" id="dragva1">A</div>
+                <div class="pelota a" id="dragva">A</div>
+                
+                <div class="pelota e" id="dragve2">E</div>
+                <div class="pelota e" id="dragve1">E</div>
+                <div class="pelota e" id="dragve">E</div>
+                
+                <div class="pelota i" id="dragvi">I</div>
+                <div class="pelota o" id="dragvo">O</div>
+                <div class="pelota u" id="dragvu">U</div>
+            </div>
+        </div>
+    </body>
+    
+    <footer>
+        <audio id="audiocom" src="sonidos/abeja.mp3"></audio>
+        <audio id="audioa" src="sonidos/a.mp3"></audio>
+        <audio id="audioe" src="sonidos/e.mp3"></audio>
+        <audio id="audioi" src="sonidos/i.mp3"></audio>
+        <audio id="audioo" src="sonidos/o.mp3"></audio>
+        <audio id="audiou" src="sonidos/u.mp3"></audio>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.2/jquery.ui.touch-punch.min.js"></script>
+        <script src="js/drag.js"></script>
+    </footer>
+    
+</html>

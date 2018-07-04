@@ -1,0 +1,238 @@
+ body {
+     font-family: 'Lato', 'Montserrat', FontAwesome; 
+}
+
+.pelota{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: white;
+    font-size: 5vw;
+    
+    position: absolute;
+    
+    transition: 500ms ease;
+}
+
+.peloto{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: white;
+    font-size: 5vw;
+    
+    position: absolute;
+}
+
+.pelota.a{
+    background: red;
+    /*right: 50%;*/
+}
+
+.pelota.e{
+    background: blue;
+    right: calc(75% - 7.5vw);
+}
+
+.pelota.i{
+    background: darkorchid;
+    right: calc(50% - 5vw);
+}
+
+.pelota.o{
+    background: darkorange;
+    right: calc(25% - 2.5vw);
+}
+
+.pelota.u{
+    background: limegreen;
+    right: 0;
+}
+
+.peloto.a{
+    background: red;
+}
+
+.peloto.e{
+    background: blue;
+}
+
+.peloto.i{
+    background: black;
+}
+
+.peloto.o{
+    background: orange;
+}
+
+.peloto.u{
+    background: green;
+}
+
+.pelota:hover{
+    width: 11vw;
+    height: 11vw;
+}
+
+.cancha{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 12vw;
+    width: 100%; 
+}
+
+.raya{
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.tablero{
+    position: relative;
+    height: 70vh;
+    width: 100%; 
+}
+
+.imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 35vh;
+    width: 100%;
+    font-size: 4vh;
+}
+
+.figurita{
+    height: 35vh;
+}
+
+.cuadrito{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 12vw;
+    width: 100%;
+}
+
+.instruccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    height: 10vh;
+    width: 100%;
+}
+
+.cajita{
+    height: 30vh;
+    width: 100%;
+    position: relative;
+}
+
+.foto{
+    height: 14vw;
+    position: absolute;
+}
+
+.foto.i{
+    left: 0;
+}
+
+.foto.d{
+    right: 0;
+}
+
+.foto.ci{
+    left: 27%;
+}
+
+.foto.cd{
+    right: 27%;
+}
+
+.fotoc{
+    height: 30vh;
+    width: 32%;
+    position: absolute;
+    border-radius: 10%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotoc.a{
+    border: 3px solid purple;
+    left: 0;
+}
+
+.fotoc.b{
+    border: 3px solid deepskyblue;
+    right: calc(50% - 16.5%);
+}
+
+.fotoc.c{
+    border: 3px solid pink;
+    right: 0;
+}
+
+
+
+.fotos{
+    height: 15vw;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.vacio{
+    width: 11vw;
+    height: 11vw;
+    border-radius: 10%;
+    background: yellow;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: black;
+    font-size: 5vw;
+    
+    position: absolute;
+}
+
+.vacio.p51{
+    right: calc(50% + 19vw);
+}
+
+.vacio.p52{
+    right: calc(50% + 7vw);
+}
+
+.vacio.p53{
+    right: calc(50% - 5vw);
+}
+
+.vacio.p54{
+    right: calc(50% - 17vw);
+}
+
+.vacio.p55{
+    right: calc(50% - 29vw);
+}
